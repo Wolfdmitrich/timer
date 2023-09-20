@@ -6,9 +6,9 @@ $(document).ready(function () {
         var minutes = currentTime.getMinutes();
         var seconds = currentTime.getSeconds();
 
-        $(".hours").html = hours;
-        $(".minutes").html = minutes;
-        $(".seconds").html = seconds;
+        $("span.hours").html(hours);
+        $("span.minutes").html(minutes);
+        $("span.seconds").html(seconds);
     }
 
     // Вызываем функцию updateTime при загрузке страницы
